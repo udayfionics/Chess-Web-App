@@ -40,12 +40,12 @@ body {
 
 /* Customize the white squares */
 .square-55d63.white-1e1d7 {
-  background-color: #f5deb3;  /* Wheat */ /* Change to your desired white square color */
+  background-color: #e0e0e0;  /* Light Gray */ /* Change to your desired white square color */
 }
 
 /* Customize the black squares */
 .square-55d63.black-3c85d {
-  background-color: #8b4513;  /* SaddleBrown */ /* Change to your desired black square color */
+  background-color: #4d4d4d;  /* Dark Gray */ /* Change to your desired black square color */
 }
 
 /* Customize the border (optional) */
