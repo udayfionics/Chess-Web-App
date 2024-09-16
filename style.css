@@ -38,17 +38,15 @@ body {
   font-size: 18px;
 }
 
-/* Customize the white squares */
 .square-55d63.white-1e1d7 {
-  background-color: #7f8c8d;  /* Silver Gray */ /* Change to your desired white square color */
+  background-color: #d2e7b3;  /* Light Green */
 }
 
-/* Customize the black squares */
 .square-55d63.black-3c85d {
-  background-color: #2c3e50;  /* Dark Navy Blue */ /* Change to your desired black square color */
+  background-color: #4a7c59;  /* Dark Green */
 }
 
 /* Customize the border (optional) */
 .chessboard-63f37 {
-  border: 3px solid #333;  /* Add a border around the chessboard */
+  border: 3px solid #d2e7b3;  /* Add a border around the chessboard */
 }
