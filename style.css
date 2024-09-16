@@ -1,0 +1,39 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.start-btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.start-btn:hover {
+  background-color: #45a049;
+}
+
+.chess-board {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.status-message {
+  margin-top: 20px;
+  font-size: 18px;
+}
