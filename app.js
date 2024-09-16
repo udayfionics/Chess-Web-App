@@ -32,9 +32,11 @@ const updateStatus = () => {
   if (game.in_checkmate()) {
     status = `Game Over, ${moveColor} is in checkmate.`;
     document.getElementById('gameStatus').textContent = `Congratulations! ${moveColor === 'White' ? 'Black' : 'White'} wins the game!`;
+    alert(`Congratulations! ${moveColor === 'White' ? 'Black' : 'White'} wins the game!`);
   } else if (game.in_draw()) {
     status = "Game Over, it's a draw!";
     document.getElementById('gameStatus').textContent = "It's a draw!";
+    alert("It's a draw!");
   } else {
     status = `${moveColor} to move`;
 
